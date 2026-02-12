@@ -26,6 +26,17 @@ header, footer{
 
 
 
+a[rel="Flavours"]{
+    color: #DEC9E9;
+    text-decoration: none;
+}
+
+
+
+h1 + p {
+    background-color: #000;
+    color: #DEC9E9;
+}
 
 /*
 
@@ -45,7 +56,7 @@ header, footer{
         max-width: 940px;
         margin: 0 auto;
         padding: 2em;
-    Select both list types
+    Select both list types                  <---------------
         padding: 0;
         list-style: none;
     Use descendant selector to select the links within the navigation

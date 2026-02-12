@@ -10,7 +10,10 @@ h1, h2, h3{
 }
 
 
-
+header, footer{
+    background-color: #000;
+    color: #DEC9E9;
+}
 
 
 
@@ -24,7 +27,7 @@ h1, h2, h3{
         background-color: #7251B5;
     Select h1, h2 and h3
         margin-bottom: 0;
-    Select the id company-name
+    Select the id company-name              <--------------
         font-size: 1.5rem;
     Select header and footer
         background-color: #000;

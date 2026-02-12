@@ -26,6 +26,12 @@ header, footer{
 
 /*Select both list types*/
 
+
+./*--*/ {      /*removeing bullet at top links*/
+    list-style: none;
+
+}
+
 a[rel="Flavours"]{
     color: #DEC9E9;
     text-decoration: none;
@@ -47,8 +53,8 @@ li:nth-child(even){
     color: #dc33dc;
 }
 
-h3 > p{ /*amain*/
-    width: 100px;
+h3 > p{ /*main*/
+    width: 100%;
 }
 
 /*

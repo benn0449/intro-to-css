@@ -38,6 +38,19 @@ h1 + p {
     color: #DEC9E9;
 }
 
+h3 > p{
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 1em;
+}
+
+li:nth-child(even){
+    color: #dc33dc;
+}
+
+
+
 /*
 
     Select body

@@ -24,21 +24,19 @@ header, footer{
     padding: 2em;
 }
 
-
+/*Select both list types*/
 
 a[rel="Flavours"]{
     color: #DEC9E9;
     text-decoration: none;
 }
 
-
-
 h1 + p {
     background-color: #000;
     color: #DEC9E9;
 }
 
-h3 > p{
+h3 > p{ /*article*/
     width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);
@@ -49,41 +47,43 @@ li:nth-child(even){
     color: #dc33dc;
 }
 
-
+h3 > p{ /*amain*/
+    width: 100px;
+}
 
 /*
 
-    Select body
+    Select body - COMPLETE
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.5;
         margin: 0;
         background-color: #7251B5;
-    Select h1, h2 and h3
+    Select h1, h2 and h3 - COMPLETE
         margin-bottom: 0;
-    Select the id company-name              
+    Select the id company-name - COMPLETE          
         font-size: 1.5rem;
-    Select header and footer
+    Select header and footer - COMPLETE  
         background-color: #000;
         color: #DEC9E9;
-    Select the class wrapper             
+    Select the class wrapper - COMPLETE               
         max-width: 940px;
         margin: 0 auto;
         padding: 2em;
     Select both list types                  <---------------
         padding: 0;
         list-style: none;
-    Use descendant selector to select the links within the navigation
+    Use descendant selector to select the links within the navigation - 1/2 COMPLETE 
         color: #DEC9E9;
         text-decoration: none;
-    Use an adjacent selector to target the section immediately beside the section with id #intro
+    Use an adjacent selector to target the section immediately beside the section with id #intro - COMPLETE
         background-color: #000;
         color: #DEC9E9;
-    Use a child selector to target the img tag directly with the article tags
+    Use a child selector to target the img tag directly with the article tags - COMPLETE
         width: 150px;
         border-radius: 50%;
         filter: grayscale(100%);
         margin-top: 1em;
-    Select every even numbered li within the ordered list
+    Select every even numbered li within the ordered list - COMPLETE
         color: #dc33dc;
-    Use a child selector to target the img tag directly with the main element 
+    Use a child selector to target the img tag directly with the main element  - COMPLETE
         width: 100%;

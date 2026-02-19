@@ -29,18 +29,12 @@ ul, ol{
     list-style: none;
 }
 
-/*
-a[rel="Flavours"]{
-    color: #DEC9E9;
-    text-decoration: none;
-}
-*/
 nav a{
     color: #DEC9E9;
     text-decoration: none;
 }
 
-#intro+.wrapper {
+#intro,.wrapper {
     background-color: #000;
     color: #DEC9E9;
 }
@@ -61,8 +55,3 @@ main>img:first-child{
 }
 
 
-/*
-
-
-    Use a child selector to target the img tag directly with the main element  - COMPLETE
-        width: 100%;

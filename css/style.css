@@ -45,7 +45,7 @@ nav a{
     color: #DEC9E9;
 }
 
-article > p{ /*article*/
+article>img{
     width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);
@@ -62,12 +62,8 @@ h3 > p{ /*main*/
 
 /*
 
-    Use descendant selector to select the links within the navigation - 1/2 COMPLETE 
-        color: #DEC9E9;
-        text-decoration: none;
-    Use an adjacent selector to target the section immediately beside the section with id #intro - COMPLETE
-        background-color: #000;
-        color: #DEC9E9;
+
+
     Use a child selector to target the img tag directly with the article tags - COMPLETE
         width: 150px;
         border-radius: 50%;

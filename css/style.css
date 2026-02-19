@@ -56,9 +56,10 @@ ol>li:nth-child(even){
     color: #dc33dc;
 }
 
-h3 > p:{ /*main*/
+main>img:first-child{
     width: 100%;
 }
+
 
 /*
 

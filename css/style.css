@@ -40,12 +40,12 @@ nav a{
     text-decoration: none;
 }
 
-h1 + p {
+#intro+.wrapper {
     background-color: #000;
     color: #DEC9E9;
 }
 
-h3 > p{ /*article*/
+article > p{ /*article*/
     width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);

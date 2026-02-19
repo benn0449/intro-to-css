@@ -24,15 +24,18 @@ header, footer{
     padding: 2em;
 }
 
-/*Select both list types*/
-
-
-./*--*/ {      /*removeing bullet at top links*/
+ul, ol{
+    padding: 0;
     list-style: none;
-
 }
 
+/*
 a[rel="Flavours"]{
+    color: #DEC9E9;
+    text-decoration: none;
+}
+*/
+nav a{
     color: #DEC9E9;
     text-decoration: none;
 }
@@ -59,25 +62,6 @@ h3 > p{ /*main*/
 
 /*
 
-    Select body - COMPLETE
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        line-height: 1.5;
-        margin: 0;
-        background-color: #7251B5;
-    Select h1, h2 and h3 - COMPLETE
-        margin-bottom: 0;
-    Select the id company-name - COMPLETE          
-        font-size: 1.5rem;
-    Select header and footer - COMPLETE  
-        background-color: #000;
-        color: #DEC9E9;
-    Select the class wrapper - COMPLETE               
-        max-width: 940px;
-        margin: 0 auto;
-        padding: 2em;
-    Select both list types                  <---------------
-        padding: 0;
-        list-style: none;
     Use descendant selector to select the links within the navigation - 1/2 COMPLETE 
         color: #DEC9E9;
         text-decoration: none;

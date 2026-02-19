@@ -52,24 +52,16 @@ article>img{
     margin-top: 1em;
 }
 
-li:nth-child(even){
+ol>li:nth-child(even){
     color: #dc33dc;
 }
 
-h3 > p{ /*main*/
+h3 > p:{ /*main*/
     width: 100%;
 }
 
 /*
 
 
-
-    Use a child selector to target the img tag directly with the article tags - COMPLETE
-        width: 150px;
-        border-radius: 50%;
-        filter: grayscale(100%);
-        margin-top: 1em;
-    Select every even numbered li within the ordered list - COMPLETE
-        color: #dc33dc;
     Use a child selector to target the img tag directly with the main element  - COMPLETE
         width: 100%;
